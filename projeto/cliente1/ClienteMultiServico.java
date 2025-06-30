@@ -13,13 +13,13 @@ public class ClienteMultiServico {
         Scanner sc = new Scanner(System.in);
 
         // CPF
-        System.out.print("Digite um CPF (somente números): ");
+        System.out.print("Digite um CPF (somente numeros): ");
         String cpf = sc.nextLine();
 
         ValidadorCPFServiceImplService cpfService = new ValidadorCPFServiceImplService();
         ValidadorCPFServiceImpl cpfPorta = cpfService.getValidadorCPFServiceImplPort();
         boolean cpfValido = cpfPorta.validarCPF(cpf);
-        System.out.println("✅ CPF válido? " + cpfValido);
+        System.out.println(" CPF valido? " + cpfValido);
 
         // Placa
         System.out.print("Digite uma placa de carro (ex: ABC1D23): ");
@@ -28,7 +28,7 @@ public class ClienteMultiServico {
         ValidadorPlacaServiceImplService placaService = new ValidadorPlacaServiceImplService();
         ValidadorPlacaServiceImpl placaPorta = placaService.getValidadorPlacaServiceImplPort();
         boolean placaValida = placaPorta.validarPlaca(placa);
-        System.out.println("✅ Placa válida? " + placaValida);
+        System.out.println(" Placa valida? " + placaValida);
 
         sc.close();
     }

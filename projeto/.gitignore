@@ -1,0 +1,17 @@
+# Arquivos compilados
+*.class
+
+# Classes geradas automaticamente pelo wsimport
+cliente1/ws/**
+
+# Bibliotecas externas
+*.jar
+
+# Arquivos de sistema (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários ou de backup
+*.log
+*.swp
+*.bak
