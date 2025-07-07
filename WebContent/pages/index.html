@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Integrada de Serviços para Seguradoras</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Plataforma Integrada de Serviços</h1>
+            <p>Sistema SOA para Seguradoras</p>
+        </div>
+
+        <div class="clientSelector">
+            <button class="clientBtn btnServidor" onclick="selecionarCliente('servidor')">Servidor Público</button>
+            <button class="clientBtn btnCliente" onclick="selecionarCliente('cliente')">Cliente</button>
+            <button class="clientBtn btnCorretor" onclick="selecionarCliente('corretor')">Corretor</button>
+        </div>
+
+        <div id="servidorInterface" class="clientInterface servidor">
+            <div class="interfaceHeader servidorHeader">
+                <h2>Portal do Servidor Público</h2>
+                <p>Consultas oficiais para órgãos governamentais</p>
+            </div>
+            <div class="servicesGrid">
+                <div class="serviceCard">
+                    <h3>Consulta de Veículo por Placa</h3>
+                    <div class="formGroup">
+                        <label for="placaServidor">Placa do Veículo:</label>
+                        <input type="text" id="placaServidor" placeholder="ABC-1234" maxlength="8">
+                    </div>
+                    <button class="btnConsultar" onclick="consultarVeiculoPorCliente('servidor')">Consultar Veículo</button>
+                    <div id="resultadoVeiculoServidor" class="resultArea">
+                        <div class="resultTitle">Resultado da Consulta de Veículo:</div>
+                        <div class="resultContent" id="conteudoVeiculoServidor"></div>
+                    </div>
+                </div>
+
+                <div class="serviceCard">
+                    <h3>Consulta de Perfil por CPF</h3>
+                    <div class="formGroup">
+                        <label for="cpfServidor">CPF do Cliente:</label>
+                        <input type="text" id="cpfServidor" placeholder="000.000.000-00" maxlength="14">
+                    </div>
+                    <button class="btnConsultar" onclick="consultarPerfilPorCliente('servidor')">Consultar Perfil</button>
+                    <div id="resultadoPerfilServidor" class="resultArea">
+                        <div class="resultTitle">Resultado da Consulta de Perfil:</div>
+                        <div class="resultContent" id="conteudoPerfilServidor"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="clienteInterface" class="clientInterface cliente">
+            <div class="interfaceHeader clienteHeader">
+                <h2>Portal do Cliente</h2>
+                <p>Consulte seus dados e histórico de seguros</p>
+            </div>
+            <div class="servicesGrid">
+                <div class="serviceCard">
+                    <h3>Consulta de Veículo por Placa</h3>
+                    <div class="formGroup">
+                        <label for="placaCliente">Placa do Veículo:</label>
+                        <input type="text" id="placaCliente" placeholder="ABC-1234" maxlength="8">
+                    </div>
+                    <button class="btnConsultar" onclick="consultarVeiculoPorCliente('cliente')">Consultar Veículo</button>
+                    <div id="resultadoVeiculoCliente" class="resultArea">
+                        <div class="resultTitle">Resultado da Consulta de Veículo:</div>
+                        <div class="resultContent" id="conteudoVeiculoCliente"></div>
+                    </div>
+                </div>
+
+                <div class="serviceCard">
+                    <h3>Consulta de Perfil por CPF</h3>
+                    <div class="formGroup">
+                        <label for="cpfCliente">CPF do Cliente:</label>
+                        <input type="text" id="cpfCliente" placeholder="000.000.000-00" maxlength="14">
+                    </div>
+                    <button class="btnConsultar" onclick="consultarPerfilPorCliente('cliente')">Consultar Perfil</button>
+                    <div id="resultadoPerfilCliente" class="resultArea">
+                        <div class="resultTitle">Resultado da Consulta de Perfil:</div>
+                        <div class="resultContent" id="conteudoPerfilCliente"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="corretorInterface" class="clientInterface corretor">
+            <div class="interfaceHeader corretorHeader">
+                <h2>Portal do Corretor</h2>
+                <p>Ferramentas profissionais para corretores de seguros</p>
+            </div>
+            <div class="servicesGrid">
+                <div class="serviceCard">
+                    <h3>Consulta de Veículo por Placa</h3>
+                    <div class="formGroup">
+                        <label for="placaCorretor">Placa do Veículo:</label>
+                        <input type="text" id="placaCorretor" placeholder="ABC-1234" maxlength="8">
+                    </div>
+                    <button class="btnConsultar" onclick="consultarVeiculoPorCliente('corretor')">Consultar Veículo</button>
+                    <div id="resultadoVeiculoCorretor" class="resultArea">
+                        <div class="resultTitle">Resultado da Consulta de Veículo:</div>
+                        <div class="resultContent" id="conteudoVeiculoCorretor"></div>
+                    </div>
+                </div>
+
+                <div class="serviceCard">
+                    <h3>Consulta de Perfil por CPF</h3>
+                    <div class="formGroup">
+                        <label for="cpfCorretor">CPF do Cliente:</label>
+                        <input type="text" id="cpfCorretor" placeholder="000.000.000-00" maxlength="14">
+                    </div>
+                    <button class="btnConsultar" onclick="consultarPerfilPorCliente('corretor')">Consultar Perfil</button>
+                    <div id="resultadoPerfilCorretor" class="resultArea">
+                        <div class="resultTitle">Resultado da Consulta de Perfil:</div>
+                        <div class="resultContent" id="conteudoPerfilCorretor"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function selecionarCliente(tipoCliente) {
+            document.querySelectorAll('.clientBtn').forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`.btn${tipoCliente.charAt(0).toUpperCase() + tipoCliente.slice(1)}`).classList.add('active');
+            document.querySelectorAll('.clientInterface').forEach(p => p.classList.remove('active'));
+            document.getElementById(`${tipoCliente}Interface`).classList.add('active');
+        }
+
+        async function consultarVeiculoPorCliente(tipoCliente) {
+            const placa = document.getElementById(`placa${tipoCliente.charAt(0).toUpperCase() + tipoCliente.slice(1)}`).value;
+            const areaResultado = document.getElementById(`resultadoVeiculo${tipoCliente.charAt(0).toUpperCase() + tipoCliente.slice(1)}`);
+            const conteudoResultado = document.getElementById(`conteudoVeiculo${tipoCliente.charAt(0).toUpperCase() + tipoCliente.slice(1)}`);
+
+            if (!placa) {
+                alert('Por favor, insira a placa do veículo.');
+                return;
+            }
+
+            areaResultado.classList.add('show');
+            conteudoResultado.innerHTML = '<div class="loading"><div class="loadingSpinner"></div>Consultando veículo...</div>';
+
+            try {
+                const resposta = await simularRespostaVeiculo(placa);
+                setTimeout(() => {
+                    conteudoResultado.innerHTML = resposta;
+                }, 2000);
+            } catch (erro) {
+                conteudoResultado.innerHTML = `Erro na consulta: ${erro.message}`;
+            }
+        }
+
+        async function consultarPerfilPorCliente(tipoCliente) {
+            const cpf = document.getElementById(`cpf${tipoCliente.charAt(0).toUpperCase() + tipoCliente.slice(1)}`).value;
+            const areaResultado = document.getElementById(`resultadoPerfil${tipoCliente.charAt(0).toUpperCase() + tipoCliente.slice(1)}`);
+            const conteudoResultado = document.getElementById(`conteudoPerfil${tipoCliente.charAt(0).toUpperCase() + tipoCliente.slice(1)}`);
+
+            if (!cpf) {
+                alert('Por favor, insira o CPF.');
+                return;
+            }
+
+            areaResultado.classList.add('show');
+            conteudoResultado.innerHTML = '<div class="loading"><div class="loadingSpinner"></div>Consultando perfil...</div>';
+
+            try {
+                const resposta = await simularRespostaPerfil(cpf);
+                setTimeout(() => {
+                    conteudoResultado.innerHTML = resposta;
+                }, 2000);
+            } catch (erro) {
+                conteudoResultado.innerHTML = `Erro na consulta: ${erro.message}`;
+            }
+        }
+
+        async function simularRespostaVeiculo(placa) {
+            return new Promise((resolvido) => {
+                const respostaMock = `<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <consultaVeiculoResponse>
+            <placa>${placa}</placa>
+            <marca>Toyota</marca>
+            <modelo>Corolla</modelo>
+            <ano>2020</ano>
+            <cor>Prata</cor>
+            <chassi>9BR53ZEC4LC012345</chassi>
+            <situacao>Regular</situacao>
+            <multas>
+                <multa>
+                    <data>2024-01-15</data>
+                    <valor>195.23</valor>
+                    <infracao>Velocidade</infracao>
+                    <situacao>Pendente</situacao>
+                </multa>
+            </multas>
+            <ipva>
+                <ano>2024</ano>
+                <valor>1250.00</valor>
+                <situacao>Pago</situacao>
+            </ipva>
+            <restricoes>
+                <restricao>Nenhuma</restricao>
+            </restricoes>
+            <roubo>
+                <situacao>Sem ocorrência</situacao>
+            </roubo>
+        </consultaVeiculoResponse>
+    </soap:Body>
+</soap:Envelope>`;
+                resolvido(respostaMock);
+            });
+        }
+
+        async function simularRespostaPerfil(cpf) {
+            return new Promise((resolvido) => {
+                const respostaMock = `<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <consultaPerfilResponse>
+            <cpf>${cpf}</cpf>
+            <nome>João Silva Santos</nome>
+            <dataNascimento>1985-03-15</dataNascimento>
+            <endereco>
+                <logradouro>Rua das Flores, 123</logradouro>
+                <bairro>Centro</bairro>
+                <cidade>São Paulo</cidade>
+                <cep>01234-567</cep>
+                <uf>SP</uf>
+            </endereco>
+            <telefone>(11) 99999-9999</telefone>
+            <email>joao.silva@email.com</email>
+            <historico>
+                <apolice>
+                    <numero>AP-2024-001</numero>
+                    <tipo>Seguro Auto</tipo>
+                    <vigencia>2024-01-01 a 2024-12-31</vigencia>
+                    <valor>2500.00</valor>
+                    <status>Ativa</status>
+                </apolice>
+                <apolice>
+                    <numero>AP-2023-058</numero>
+                    <tipo>Seguro Residencial</tipo>
+                    <vigencia>2023-06-01 a 2024-05-31</vigencia>
+                    <valor>1800.00</valor>
+                    <status>Finalizada</status>
+                </apolice>
+            </historico>
+            <score>750</score>
+            <classificacao>Baixo Risco</classificacao>
+        </consultaPerfilResponse>
+    </soap:Body>
+</soap:Envelope>`;
+                resolvido(respostaMock);
+            });
+        }
+
+        document.querySelectorAll('input[id*="cpf"]').forEach(input => {
+            input.addEventListener('input', function(e) {
+                let valor = e.target.value.replace(/\D/g, '');
+                if (valor.length > 11) valor = valor.slice(0, 11);
+                if (valor.length > 9) {
+                    valor = valor.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4');
+                } else if (valor.length > 6) {
+                    valor = valor.replace(/(\d{3})(\d{3})(\d{3})/, '$1.$2.$3');
+                } else if (valor.length > 3) {
+                    valor = valor.replace(/(\d{3})(\d{3})/, '$1.$2');
+                }
+                e.target.value = valor;
+            });
+        });
+
+        document.querySelectorAll('input[id*="placa"]').forEach(input => {
+            input.addEventListener('input', function(e) {
+                let valor = e.target.value.replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
+                if (valor.length > 7) valor = valor.slice(0, 7);
+                if (valor.length > 3) {
+                    valor = valor.replace(/([A-Z]{3})(\d{4})/, '$1-$2');
+                }
+                e.target.value = valor;
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            selecionarCliente('servidor');
+        });
+    </script>
+</body>
+</html>

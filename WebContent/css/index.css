@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background: #f1faee;
+    min-height: 100vh;
+    color: #334155;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    border-radius: 16px;
+    color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    letter-spacing: -0.025em;
+}
+
+.header p {
+    font-size: 1.125rem;
+    color: #94a3b8;
+    font-weight: 400;
+}
+
+.clientSelector {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 40px;
+    background: white;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clientBtn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    background: transparent;
+    color: #64748b;
+    flex: 1;
+    text-align: center;
+}
+
+.clientBtn:hover {
+    background: #f1f5f9;
+    color: #334155;
+}
+
+.clientBtn.active {
+    background: #0f172a;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.clientInterface {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    display: none;
+}
+
+.clientInterface.active {
+    display: block;
+}
+
+.interfaceHeader {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.interfaceHeader h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #1e293b;
+}
+
+.interfaceHeader p {
+    color: #64748b;
+    font-size: 1.125rem;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 32px;
+}
+
+.serviceCard {
+    background: #f8fafc;
+    padding: 32px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    position: relative;
+    overflow: hidden;
+}
+
+.serviceCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #3b82f6, #06b6d4);
+}
+
+.servidor .serviceCard::before {
+    background: linear-gradient(90deg, #059669, #10b981);
+}
+
+.cliente .serviceCard::before {
+    background: linear-gradient(90deg, #3b82f6, #06b6d4);
+}
+
+.corretor .serviceCard::before {
+    background: linear-gradient(90deg, #ea580c, #f59e0b);
+}
+
+.serviceCard h3 {
+    margin-bottom: 24px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.formGroup {
+    margin-bottom: 24px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #374151;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    background: white;
+}
+
+.formGroup input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.servidor .formGroup input:focus {
+    border-color: #059669;
+    box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.1);
+}
+
+.corretor .formGroup input:focus {
+    border-color: #ea580c;
+    box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.1);
+}
+
+.btnConsultar {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    background: #3b82f6;
+    color: white;
+    letter-spacing: 0.025em;
+}
+
+.btnConsultar:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.btnConsultar:active {
+    transform: translateY(0);
+}
+
+.servidor .btnConsultar {
+    background: #059669;
+}
+
+.servidor .btnConsultar:hover {
+    background: #047857;
+    box-shadow: 0 4px 12px rgba(5, 150, 105, 0.4);
+}
+
+.corretor .btnConsultar {
+    background: #ea580c;
+}
+
+.corretor .btnConsultar:hover {
+    background: #dc2626;
+    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.4);
+}
+
+.resultArea {
+    margin-top: 32px;
+    padding: 24px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    display: none;
+}
+
+.resultArea.show {
+    display: block;
+}
+
+.resultTitle {
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.resultContent {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    font-size: 0.875rem;
+    white-space: pre-wrap;
+    max-height: 400px;
+    overflow-y: auto;
+    line-height: 1.5;
+    color: #374151;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #64748b;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.loadingSpinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid #e2e8f0;
+    border-top: 3px solid #3b82f6;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.servidor .loadingSpinner {
+    border-top-color: #059669;
+}
+
+.corretor .loadingSpinner {
+    border-top-color: #ea580c;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.resultContent::-webkit-scrollbar {
+    width: 8px;
+}
+
+.resultContent::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 4px;
+}
+
+.resultContent::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+.resultContent::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+    
+    .header {
+        margin-bottom: 32px;
+        padding: 32px 24px;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .header p {
+        font-size: 1rem;
+    }
+    
+    .clientSelector {
+        flex-direction: column;
+        gap: 4px;
+        max-width: 100%;
+    }
+    
+    .clientBtn {
+        padding: 16px 24px;
+        font-size: 1rem;
+    }
+    
+    .clientInterface {
+        padding: 24px;
+    }
+    
+    .servicesGrid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .serviceCard {
+        padding: 24px;
+    }
+    
+    .interfaceHeader h2 {
+        font-size: 1.75rem;
+    }
+    
+    .interfaceHeader p {
+        font-size: 1rem;
+    }
+}
