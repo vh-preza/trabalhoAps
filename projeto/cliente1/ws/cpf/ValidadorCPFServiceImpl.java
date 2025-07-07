@@ -28,14 +28,14 @@ public interface ValidadorCPFServiceImpl {
      * 
      * @param arg0
      * @return
-     *     returns boolean
+     *     returns java.lang.String
      */
     @WebMethod
     @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "validarCPF", targetNamespace = "http://servidor.projeto/", className = "projeto.cliente1.ws.cpf.ValidarCPF")
     @ResponseWrapper(localName = "validarCPFResponse", targetNamespace = "http://servidor.projeto/", className = "projeto.cliente1.ws.cpf.ValidarCPFResponse")
     @Action(input = "http://servidor.projeto/ValidadorCPFServiceImpl/validarCPFRequest", output = "http://servidor.projeto/ValidadorCPFServiceImpl/validarCPFResponse")
-    public boolean validarCPF(
+    public String validarCPF(
         @WebParam(name = "arg0", targetNamespace = "")
         String arg0);
 

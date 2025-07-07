@@ -1,0 +1,1602 @@
+{
+    "04518629701": {
+        "nome": "Sr. Lucca da Cunha",
+        "endereco": "Esplanada Freitas, 30, Vila Jardim São José, 03560-468 Nogueira / MT",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2190.31
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1849.95
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1717.99
+            }
+        ]
+    },
+    "51462890342": {
+        "nome": "Rafaela Fernandes",
+        "endereco": "Lagoa de Lima, 41, Santa Amelia, 34387530 Mendes das Flores / GO",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 557.91
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2024.82
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 512.21
+            }
+        ]
+    },
+    "85390124642": {
+        "nome": "Maria Novaes",
+        "endereco": "Feira da Cunha, Califórnia, 29064256 Gonçalves / PB",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1301.57
+            }
+        ]
+    },
+    "15368270968": {
+        "nome": "Marina Jesus",
+        "endereco": "Travessa de da Conceição, 177, Marieta 3ª Seção, 85973515 Gomes da Prata / RR",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 2443.62
+            }
+        ]
+    },
+    "01938674278": {
+        "nome": "Anthony Ramos",
+        "endereco": "Praça de Novaes, 77, Vitoria, 91687-247 Lopes / ES",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 930.27
+            }
+        ]
+    },
+    "31652789030": {
+        "nome": "Thales Barbosa",
+        "endereco": "Avenida Kevin Gonçalves, 70, Betânia, 82778-706 Moreira do Norte / RS",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 814.82
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1148.77
+            }
+        ]
+    },
+    "29741508611": {
+        "nome": "Júlia Monteiro",
+        "endereco": "Campo Costela, 67, Nova Cachoeirinha, 30088812 Oliveira / SC",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 2266.68
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 2008.87
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 663.16
+            }
+        ]
+    },
+    "19624807396": {
+        "nome": "Cauê da Rocha",
+        "endereco": "Rodovia de da Cunha, 72, Marieta 2ª Seção, 07572-229 Ribeiro / SC",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1471.32
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1046.33
+            }
+        ]
+    },
+    "18937654237": {
+        "nome": "Henrique da Mota",
+        "endereco": "Vila Cavalcanti, 966, Vila Maloca, 48945-562 Sales de da Luz / GO",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1359.83
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1856.97
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1834.27
+            }
+        ]
+    },
+    "07839625177": {
+        "nome": "Maria Fernanda das Neves",
+        "endereco": "Lagoa Isabella da Cunha, Vila São Francisco, 99718595 Fogaça do Campo / PE",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2468.89
+            }
+        ]
+    },
+    "47601839575": {
+        "nome": "Ana Julia Sales",
+        "endereco": "Pátio Mariane Nogueira, 72, Goiania, 00067351 Santos dos Dourados / SP",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1102.84
+            }
+        ]
+    },
+    "36104928722": {
+        "nome": "Henrique Cunha",
+        "endereco": "Parque Vicente da Rocha, 86, Vila Da Ária, 40414191 Gonçalves de Porto / MA",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1078.89
+            }
+        ]
+    },
+    "97803452132": {
+        "nome": "Sr. Kevin das Neves",
+        "endereco": "Núcleo Souza, Nossa Senhora Da Conceição, 14272420 Araújo do Amparo / PE",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1994.03
+            }
+        ]
+    },
+    "93142567828": {
+        "nome": "Sabrina Alves",
+        "endereco": "Praia da Mota, 165, Boa União 1ª Seção, 60989-821 Cavalcanti Alegre / PE",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1565.16
+            }
+        ]
+    },
+    "26047189369": {
+        "nome": "Daniel Aragão",
+        "endereco": "Fazenda Barbosa, 1, Vila Barragem Santa Lúcia, 13539-223 Santos / MG",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 2166.71
+            }
+        ]
+    },
+    "71982354682": {
+        "nome": "Amanda Dias",
+        "endereco": "Quadra Vieira, 158, Novo São Lucas, 16744-396 Rezende / PB",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2223.53
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 537.48
+            }
+        ]
+    },
+    "79503482160": {
+        "nome": "Yasmin Silveira",
+        "endereco": "Aeroporto Aragão, Barão Homem De Melo 3ª Seção, 96434-381 Monteiro do Campo / AC",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1358.57
+            }
+        ]
+    },
+    "12430768526": {
+        "nome": "Ana Cunha",
+        "endereco": "Jardim Catarina Pinto, 93, Cidade Nova, 14333440 Moura / RO",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1335.39
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 541.71
+            }
+        ]
+    },
+    "37905416216": {
+        "nome": "Clarice Dias",
+        "endereco": "Trevo Maria Eduarda Ferreira, 34, Caiçaras, 49341287 Pires / AL",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1420.19
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 676.26
+            }
+        ]
+    },
+    "15087963439": {
+        "nome": "Kevin da Luz",
+        "endereco": "Campo Miguel Pinto, 66, Vila Nova Gameleira 3ª Seção, 24783883 Melo de da Cruz / RO",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1677.74
+            }
+        ]
+    },
+    "21459860730": {
+        "nome": "Vitor Souza",
+        "endereco": "Núcleo Lucas Gabriel Moura, 8, São Marcos, 77024161 Costa Alegre / ES",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2241.05
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 943.14
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1520.97
+            }
+        ]
+    },
+    "36425019824": {
+        "nome": "Sra. Rebeca Lopes",
+        "endereco": "Aeroporto de da Luz, 91, Jardim Do Vale, 03828341 Nascimento / SC",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 887.81
+            }
+        ]
+    },
+    "98156240324": {
+        "nome": "Luiz Henrique Viana",
+        "endereco": "Distrito de Nunes, 8, Pongelupe, 50500-559 Dias de Pires / SE",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2416.45
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 972.54
+            }
+        ]
+    },
+    "30671295470": {
+        "nome": "Alice Alves",
+        "endereco": "Estação Teixeira, 16, Coração Eucarístico, 91368-491 Porto de Cavalcanti / PR",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 847.0
+            }
+        ]
+    },
+    "65701293416": {
+        "nome": "Antônio Lima",
+        "endereco": "Via Alves, 34, Vila Nova, 35726-708 Fogaça / MG",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 854.29
+            }
+        ]
+    },
+    "35460189233": {
+        "nome": "Yuri Castro",
+        "endereco": "Vereda Ana Sophia da Luz, 9, Vila Copacabana, 40525-286 Costela de Cardoso / MG",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 2008.89
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1862.27
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1770.6
+            }
+        ]
+    },
+    "61358749000": {
+        "nome": "Fernando Rezende",
+        "endereco": "Favela de Alves, 99, Atila De Paiva, 09974198 Silva / MT",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1132.28
+            },
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1437.84
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 2092.66
+            }
+        ]
+    },
+    "51389746291": {
+        "nome": "Sra. Manuela Fernandes",
+        "endereco": "Praia de Lima, 282, Vila Nova Paraíso, 32667-562 Nascimento / RR",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1514.67
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1403.83
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2163.39
+            }
+        ]
+    },
+    "48930521606": {
+        "nome": "Emilly Nogueira",
+        "endereco": "Estrada de Rodrigues, 96, Baleia, 16897630 Cunha / AP",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1730.02
+            }
+        ]
+    },
+    "20491783604": {
+        "nome": "Maria Cecília Campos",
+        "endereco": "Chácara de Monteiro, 75, Vila Atila De Paiva, 62594382 Moura / PI",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1660.66
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1399.47
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 876.48
+            }
+        ]
+    },
+    "83926104589": {
+        "nome": "Srta. Larissa Cavalcanti",
+        "endereco": "Vereda de Lopes, 81, Conjunto Floramar, 00461719 Ramos da Praia / MT",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 801.72
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 707.0
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 668.66
+            }
+        ]
+    },
+    "43527198628": {
+        "nome": "Giovanna Almeida",
+        "endereco": "Parque de Duarte, 243, Estrela Do Oriente, 59340683 Nogueira / RN",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 995.49
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1548.14
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1227.8
+            }
+        ]
+    },
+    "41067982396": {
+        "nome": "João Guilherme da Conceição",
+        "endereco": "Esplanada Bruna das Neves, Vila Maloca, 90319-897 Martins de Moraes / AP",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 2048.93
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 604.73
+            }
+        ]
+    },
+    "98074563200": {
+        "nome": "Catarina da Conceição",
+        "endereco": "Travessa da Cruz, 92, Beija Flor, 78771-077 Barbosa / CE",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 631.82
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1856.76
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1947.47
+            }
+        ]
+    },
+    "35127904616": {
+        "nome": "Pedro Cavalcanti",
+        "endereco": "Chácara Marina Carvalho, 20, João Pinheiro, 64421448 Lima do Amparo / MS",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1166.72
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 782.86
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 2435.39
+            }
+        ]
+    },
+    "64501289767": {
+        "nome": "Gabrielly Cavalcanti",
+        "endereco": "Ladeira de Vieira, 2, Cabana Do Pai Tomás, 41493-368 da Mota / SP",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 757.9
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1119.16
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2083.32
+            }
+        ]
+    },
+    "20134568753": {
+        "nome": "Marina Silva",
+        "endereco": "Distrito Matheus Jesus, 330, Estrela Do Oriente, 00114125 Melo de Nunes / PE",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 2157.92
+            }
+        ]
+    },
+    "91684732573": {
+        "nome": "Sophie Peixoto",
+        "endereco": "Ladeira de Viana, Biquinhas, 28124-719 Peixoto de Jesus / PI",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 686.91
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1516.98
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1117.73
+            }
+        ]
+    },
+    "17365092840": {
+        "nome": "Vitória da Mota",
+        "endereco": "Quadra Costa, 516, Camponesa 2ª Seção, 85033508 Silva / MG",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 884.01
+            }
+        ]
+    },
+    "71498052649": {
+        "nome": "Natália Castro",
+        "endereco": "Via Alves, 94, Vila Nova, 79895918 Santos / MA",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1091.58
+            }
+        ]
+    },
+    "51384976264": {
+        "nome": "Dr. Augusto Fernandes",
+        "endereco": "Conjunto da Costa, 25, Heliopolis, 91123-998 Rocha / CE",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 2170.24
+            }
+        ]
+    },
+    "19024738687": {
+        "nome": "Dr. Lucca Pires",
+        "endereco": "Trecho Rodrigues, 35, Santa Lúcia, 41855707 Araújo de da Mata / AL",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1173.53
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1694.49
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 861.69
+            }
+        ]
+    },
+    "54862137008": {
+        "nome": "Augusto Nogueira",
+        "endereco": "Núcleo Santos, São Paulo, 79940260 Moura / CE",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1942.37
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1228.6
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 2439.18
+            }
+        ]
+    },
+    "02546819305": {
+        "nome": "Maria Carvalho",
+        "endereco": "Alameda de Ribeiro, 105, Bonsucesso, 54092-915 Cunha Verde / MG",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2067.6
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 978.34
+            },
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1235.68
+            }
+        ]
+    },
+    "92384107631": {
+        "nome": "Alexia Oliveira",
+        "endereco": "Conjunto Freitas, 15, Guaratã, 94471-021 das Neves / AC",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 2038.88
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1554.92
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 2102.52
+            }
+        ]
+    },
+    "04295168351": {
+        "nome": "Carolina Araújo",
+        "endereco": "Vereda da Mata, Zilah Sposito, 58643-059 da Rosa das Flores / SC",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1782.36
+            }
+        ]
+    },
+    "96231078469": {
+        "nome": "Sra. Maria Julia Dias",
+        "endereco": "Vila Paulo das Neves, 43, Vila Da Paz, 74738859 da Mota de das Neves / RR",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1922.8
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1070.13
+            }
+        ]
+    },
+    "83659412791": {
+        "nome": "Vitor Gabriel Fogaça",
+        "endereco": "Travessa de Martins, 10, Araguaia, 33870894 Fernandes do Norte / PA",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 2310.61
+            }
+        ]
+    },
+    "17862309502": {
+        "nome": "Sarah Moraes",
+        "endereco": "Feira Isabella Castro, 557, Santa Branca, 60255401 da Cruz do Oeste / SC",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 2392.83
+            }
+        ]
+    },
+    "02467513980": {
+        "nome": "André da Luz",
+        "endereco": "Campo Cecília da Luz, 34, Novo São Lucas, 52283-301 Martins de Minas / SP",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 2360.94
+            }
+        ]
+    },
+    "71598340204": {
+        "nome": "Breno Moraes",
+        "endereco": "Praça João Miguel da Luz, Ouro Preto, 93583-698 Peixoto / PR",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1504.01
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2489.05
+            }
+        ]
+    },
+    "73284905197": {
+        "nome": "Maria Julia Carvalho",
+        "endereco": "Favela de da Cunha, 11, Vila Inestan, 53054704 Alves / SE",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1137.37
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1799.92
+            }
+        ]
+    },
+    "80254736947": {
+        "nome": "Bryan da Luz",
+        "endereco": "Núcleo Ana Beatriz da Costa, 70, Comiteco, 16309-717 da Costa Verde / RN",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1073.76
+            }
+        ]
+    },
+    "43706958139": {
+        "nome": "Sr. Luiz Miguel Ferreira",
+        "endereco": "Praia Felipe Correia, 56, Ipe, 56596530 Moura da Praia / RJ",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 2017.68
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1730.7
+            }
+        ]
+    },
+    "97210853405": {
+        "nome": "Matheus Caldeira",
+        "endereco": "Viela da Mata, 411, Cabana Do Pai Tomás, 24230-555 Costa da Prata / AM",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 931.31
+            }
+        ]
+    },
+    "67321584909": {
+        "nome": "Nicolas Nascimento",
+        "endereco": "Feira da Cunha, 389, Satelite, 46396048 Monteiro do Sul / GO",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1717.76
+            }
+        ]
+    },
+    "95316802721": {
+        "nome": "Bárbara Porto",
+        "endereco": "Chácara Isabelly Costela, 4, Confisco, 41112161 da Rosa / SP",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 975.28
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 976.88
+            }
+        ]
+    },
+    "31786024535": {
+        "nome": "Dra. Esther Vieira",
+        "endereco": "Vale da Rocha, Vila Coqueiral, 01739-356 Rezende de da Luz / RJ",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 625.61
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1572.11
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1650.09
+            }
+        ]
+    },
+    "92041687304": {
+        "nome": "Bianca Moreira",
+        "endereco": "Ladeira Davi Peixoto, 5, São Geraldo, 14043-366 Pinto / CE",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1358.48
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 981.13
+            },
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1828.74
+            }
+        ]
+    },
+    "16854039720": {
+        "nome": "Srta. Vitória Jesus",
+        "endereco": "Aeroporto de Campos, 49, Andiroba, 97947539 Caldeira / PI",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 635.36
+            }
+        ]
+    },
+    "46051723943": {
+        "nome": "Cecília da Paz",
+        "endereco": "Largo de das Neves, 399, Vila Paraíso, 81764-989 da Rocha de Minas / TO",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 2072.82
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 540.67
+            },
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1771.34
+            }
+        ]
+    },
+    "16432579007": {
+        "nome": "Emanuel Nogueira",
+        "endereco": "Vale de Ferreira, 72, Miramar, 54126806 Cardoso / SE",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 532.48
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 982.25
+            }
+        ]
+    },
+    "06721598302": {
+        "nome": "Dra. Beatriz Carvalho",
+        "endereco": "Rodovia Cardoso, 3, João Pinheiro, 64943-066 Ferreira de Lopes / PE",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 2043.0
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 766.82
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1177.09
+            }
+        ]
+    },
+    "05691782312": {
+        "nome": "João Pedro Castro",
+        "endereco": "Condomínio Ana Beatriz Mendes, 6, São João, 23243-919 Caldeira Paulista / RN",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1429.25
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1763.47
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1932.09
+            }
+        ]
+    },
+    "47602891511": {
+        "nome": "Rafael Fernandes",
+        "endereco": "Favela Fernando Martins, 16, Vera Cruz, 57553-468 Pereira do Sul / RO",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 903.18
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1131.19
+            }
+        ]
+    },
+    "46831509720": {
+        "nome": "Lívia da Cruz",
+        "endereco": "Distrito de da Conceição, 10, Vila Havaí, 19305014 Barbosa / PI",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 2478.25
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1006.63
+            }
+        ]
+    },
+    "79186524364": {
+        "nome": "Lavínia Vieira",
+        "endereco": "Distrito de Caldeira, 535, Jardim Dos Comerciarios, 11939696 Teixeira Alegre / PB",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1213.95
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1163.85
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1373.9
+            }
+        ]
+    },
+    "26513049806": {
+        "nome": "Thomas Monteiro",
+        "endereco": "Viela Vitor Gabriel Teixeira, 6, Ambrosina, 34611331 Gonçalves do Galho / RJ",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 2289.27
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 2447.45
+            }
+        ]
+    },
+    "10482579323": {
+        "nome": "Rafaela Silva",
+        "endereco": "Sítio de Aragão, 67, Lorena, 67959295 Almeida / MT",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1234.69
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 2102.3
+            }
+        ]
+    },
+    "54290367143": {
+        "nome": "Luiz Gustavo Vieira",
+        "endereco": "Morro Nina Rezende, 94, Alto Barroca, 15871460 Pereira do Galho / PI",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1361.21
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1087.53
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1155.84
+            }
+        ]
+    },
+    "94873251079": {
+        "nome": "Kaique Fernandes",
+        "endereco": "Feira Cardoso, 437, Jatobá, 42452013 Ramos / CE",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1705.24
+            },
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1879.53
+            }
+        ]
+    },
+    "47962081350": {
+        "nome": "Olivia Costa",
+        "endereco": "Morro de Rezende, 22, Novo Glória, 56783438 da Cunha / ES",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1953.63
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2496.3
+            }
+        ]
+    },
+    "06234895115": {
+        "nome": "Dr. Vicente Cunha",
+        "endereco": "Via Carvalho, 232, Paquetá, 68817671 Porto do Galho / RO",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 650.08
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1226.62
+            }
+        ]
+    },
+    "45306821707": {
+        "nome": "Larissa Nascimento",
+        "endereco": "Sítio Silveira, Vila Nova Cachoeirinha 2ª Seção, 84730-180 Rodrigues da Prata / SE",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 2405.58
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1856.18
+            },
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 752.46
+            }
+        ]
+    },
+    "74638592074": {
+        "nome": "Letícia da Paz",
+        "endereco": "Praça Marina Ramos, 5, Jardim Guanabara, 73933741 Dias / AM",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1224.3
+            }
+        ]
+    },
+    "69587234065": {
+        "nome": "Camila da Cunha",
+        "endereco": "Trecho Luigi Pinto, Engenho Nogueira, 10777-148 Sales Alegre / SC",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 806.88
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1244.03
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 775.39
+            }
+        ]
+    },
+    "07816493584": {
+        "nome": "Yuri Dias",
+        "endereco": "Feira de Oliveira, 198, Suzana, 60189391 Dias / PR",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 1799.12
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 551.83
+            }
+        ]
+    },
+    "36152704952": {
+        "nome": "Ana Júlia Martins",
+        "endereco": "Favela de da Costa, 91, Vila Esplanada, 20361499 Souza / PE",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1273.97
+            }
+        ]
+    },
+    "89206153498": {
+        "nome": "Breno da Paz",
+        "endereco": "Praça da Paz, 85, Baleia, 92592-164 Azevedo dos Dourados / SE",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2049.93
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 929.14
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1887.96
+            }
+        ]
+    },
+    "08532164951": {
+        "nome": "Fernanda da Conceição",
+        "endereco": "Avenida de Cardoso, Grotinha, 20316-961 Porto / MS",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 771.46
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 845.31
+            }
+        ]
+    },
+    "37216580940": {
+        "nome": "Benjamin Pires",
+        "endereco": "Morro de da Conceição, 1, Zilah Sposito, 80143588 Souza da Prata / SC",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 2121.03
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1194.85
+            },
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1584.34
+            }
+        ]
+    },
+    "51942063725": {
+        "nome": "Gustavo Farias",
+        "endereco": "Trevo de Ferreira, 64, Gutierrez, 77781-873 Castro de Nogueira / SE",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 1919.13
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 848.18
+            }
+        ]
+    },
+    "71834562007": {
+        "nome": "Bruna Cardoso",
+        "endereco": "Fazenda Viana, 762, Vila Engenho Nogueira, 76995342 da Luz de Carvalho / RJ",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 742.72
+            },
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 973.47
+            }
+        ]
+    },
+    "17846205307": {
+        "nome": "Vinicius da Costa",
+        "endereco": "Pátio Elisa Carvalho, 787, Calafate, 64468489 Correia Verde / BA",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1608.04
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 2107.32
+            }
+        ]
+    },
+    "85076234929": {
+        "nome": "Dr. Luiz Fernando Ferreira",
+        "endereco": "Vereda Manuela Teixeira, 72, Vila Aeroporto Jaraguá, 85950-231 Gonçalves / AL",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 2268.49
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 1296.32
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1457.33
+            }
+        ]
+    },
+    "50193862433": {
+        "nome": "Erick Cardoso",
+        "endereco": "Rua Mendes, Santa Branca, 14923-896 Moraes / PB",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 647.5
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 648.33
+            }
+        ]
+    },
+    "04916873203": {
+        "nome": "Camila Barbosa",
+        "endereco": "Colônia da Conceição, 39, Santa Isabel, 18261-406 Martins / TO",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1189.03
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1675.57
+            }
+        ]
+    },
+    "57903614207": {
+        "nome": "Maria Clara Ramos",
+        "endereco": "Campo de Viana, Esplanada, 05125-270 Barros do Galho / DF",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2321.42
+            }
+        ]
+    },
+    "96705813466": {
+        "nome": "Dra. Brenda da Cruz",
+        "endereco": "Parque Enzo Gabriel Souza, 2, Europa, 32062-863 Nunes / PI",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Residencial",
+                "valor": 806.03
+            }
+        ]
+    },
+    "06432851998": {
+        "nome": "Larissa da Mota",
+        "endereco": "Via de Sales, Jardim Atlântico, 36558-946 Nunes / RN",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2369.48
+            }
+        ]
+    },
+    "64302985747": {
+        "nome": "Arthur da Conceição",
+        "endereco": "Condomínio Fernando Lima, 27, Granja De Freitas, 20639-574 Cunha / RO",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2289.85
+            }
+        ]
+    },
+    "05236187435": {
+        "nome": "Calebe Almeida",
+        "endereco": "Viaduto Cardoso, 6, Jardim Leblon, 33671-144 Melo Paulista / RS",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1770.11
+            }
+        ]
+    },
+    "53067129407": {
+        "nome": "Bernardo da Paz",
+        "endereco": "Praia Diego Costa, 70, Horto Florestal, 50951-200 Farias de Minas / PB",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 1750.04
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 686.86
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1683.62
+            }
+        ]
+    },
+    "43097628592": {
+        "nome": "Srta. Letícia Duarte",
+        "endereco": "Vereda de Fernandes, 884, Beija Flor, 08245542 Pires / CE",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 1817.47
+            },
+            {
+                "ano": 2023,
+                "seguro": "Residencial",
+                "valor": 1175.24
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 2150.47
+            }
+        ]
+    },
+    "87596102476": {
+        "nome": "Joana Jesus",
+        "endereco": "Parque Silveira, 91, Jardim Guanabara, 65217893 Ramos do Amparo / PB",
+        "apolices": [
+            {
+                "ano": 2021,
+                "seguro": "Auto",
+                "valor": 2397.09
+            }
+        ]
+    },
+    "49562173070": {
+        "nome": "Dra. Ana Carolina da Mota",
+        "endereco": "Travessa Fogaça, 90, Mirtes, 52237-545 Santos do Amparo / DF",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 921.62
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1736.22
+            },
+            {
+                "ano": 2021,
+                "seguro": "Vida",
+                "valor": 2277.99
+            }
+        ]
+    },
+    "35941082797": {
+        "nome": "Heloísa Jesus",
+        "endereco": "Estação Cunha, Ambrosina, 94356-011 Cardoso de Nunes / AP",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2413.3
+            },
+            {
+                "ano": 2022,
+                "seguro": "Auto",
+                "valor": 2109.38
+            },
+            {
+                "ano": 2023,
+                "seguro": "Vida",
+                "valor": 1094.87
+            }
+        ]
+    },
+    "92751804667": {
+        "nome": "Marcelo Viana",
+        "endereco": "Jardim Esther da Rocha, 26, Alta Tensão 2ª Seção, 28852-282 Lopes / PA",
+        "apolices": [
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 816.16
+            }
+        ]
+    },
+    "98761025321": {
+        "nome": "Emilly Vieira",
+        "endereco": "Rua de Ferreira, 337, Vila Mangueiras, 03434873 Aragão do Oeste / CE",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 908.05
+            },
+            {
+                "ano": 2023,
+                "seguro": "Auto",
+                "valor": 1125.16
+            }
+        ]
+    },
+    "28403567910": {
+        "nome": "Dr. Noah Alves",
+        "endereco": "Vereda Mirella da Mata, 43, São Gonçalo, 59986-676 Rocha / ES",
+        "apolices": [
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 2476.05
+            },
+            {
+                "ano": 2022,
+                "seguro": "Vida",
+                "valor": 761.53
+            },
+            {
+                "ano": 2022,
+                "seguro": "Residencial",
+                "valor": 1623.3
+            }
+        ]
+    }
+}

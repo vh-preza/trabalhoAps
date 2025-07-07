@@ -28,14 +28,14 @@ public interface ValidadorPlacaServiceImpl {
      * 
      * @param arg0
      * @return
-     *     returns boolean
+     *     returns java.lang.String
      */
     @WebMethod
     @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "validarPlaca", targetNamespace = "http://servidor.projeto/", className = "projeto.cliente1.ws.placa.ValidarPlaca")
     @ResponseWrapper(localName = "validarPlacaResponse", targetNamespace = "http://servidor.projeto/", className = "projeto.cliente1.ws.placa.ValidarPlacaResponse")
     @Action(input = "http://servidor.projeto/ValidadorPlacaServiceImpl/validarPlacaRequest", output = "http://servidor.projeto/ValidadorPlacaServiceImpl/validarPlacaResponse")
-    public boolean validarPlaca(
+    public String validarPlaca(
         @WebParam(name = "arg0", targetNamespace = "")
         String arg0);
 

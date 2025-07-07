@@ -28,7 +28,7 @@ public class ClienteMultiServico {
 
                     ValidadorCPFServiceImplService cpfService = new ValidadorCPFServiceImplService();
                     ValidadorCPFServiceImpl cpfPorta = cpfService.getValidadorCPFServiceImplPort();
-                    boolean cpfValido = cpfPorta.validarCPF(cpf);
+                    String cpfValido = cpfPorta.validarCPF(cpf);
                     System.out.println(" CPF valido? " + cpfValido);
                     break;
 
@@ -38,7 +38,7 @@ public class ClienteMultiServico {
 
                     ValidadorPlacaServiceImplService placaService = new ValidadorPlacaServiceImplService();
                     ValidadorPlacaServiceImpl placaPorta = placaService.getValidadorPlacaServiceImplPort();
-                    boolean placaValida = placaPorta.validarPlaca(placa);
+                    String placaValida = placaPorta.validarPlaca(placa);
                     System.out.println(" Placa valida? " + placaValida);
                     break;
 
