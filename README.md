@@ -46,3 +46,15 @@ Nesse contexto, apresentamos como solução a criação de uma **plataforma inte
 
 ---
 
+#### Execução do sistema
+
+  comando: javac -cp ".;lib/*" -d bin projeto/servidor/*.java
+
+  -Transformar os arquivos de código-fonte (.java) em bytecode que a Máquina Virtual do Java entende (.class)
+
+  Após isso, rodar o comando : java -cp ".;lib/*;bin" projeto.servidor.ServidorSOAP
+
+  -Inicia a Máquina Virtual do Java (JVM) e executa seu programa principal, que inicia o servidor.
+
+  Com isso, é só abrir o servidor http://localhost:8080/ em um navegador.
+
