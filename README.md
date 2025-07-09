@@ -58,3 +58,9 @@ Nesse contexto, apresentamos como solução a criação de uma **plataforma inte
 
   Com isso, é só abrir o servidor http://localhost:8080/ em um navegador.
 
+  Utilizamos o JavaSE 8, e a ferramenta para compilar e rodar é o JDK 1.8.
+
+  Além disto, para ler arquivos json foi utilizado a biblioteca json-20250517.jar.
+
+  IMPORTANTE: JAX-WS (javax.xml.ws.*): A API de serviços web SOAP foi incluída por padrão no JDK 8. (Nota: a partir do JDK 11, ela foi removida e precisa ser adicionada como uma dependência externa).
+
