@@ -1,38 +1,44 @@
 package projeto.servidor;
 
+import javax.jws.WebMethod;
 import javax.jws.WebService;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import java.util.StringJoiner; 
+import java.io.IOException;
+import java.util.StringJoiner;
+
 @WebService
-public class ValidadorPlacaServiceImpl {
+public class ValidadorPlacaServiceImpl extends AbstractValidatorService {
 
+    @WebMethod
     public String validarPlaca(String placa) {
+        return processarConsulta(placa);
+    }
 
-        if (!placa.matches("^[A-Z]{3}[0-9][A-Z][0-9]{2}$")) {
-            return "Formato invalido de placa";
-        }
+    @Override
+    protected boolean validarFormato(String input) {
 
-        try {
-            JSONObject dados = ConsultaDados.consultarPlaca(placa);
-            if (dados != null) {
+        return input != null && input.matches("^[A-Z]{3}[0-9][A-Z0-9][0-9]{2}$");
+    }
 
-                String multasFormatadas = formatarArray(dados.getJSONArray("historico_multas"));
-                String ipvaFormatado = formatarBoolean(dados.getBoolean("ipva_pago"), "Pago", "Nao Pago");
-                String restricoesFormatadas = formatarArray(dados.getJSONArray("restricoes"));
-                String rouboFormatado = formatarBoolean(dados.getBoolean("roubo"), "Sim", "Nao");
+    @Override
+    protected String getTipoDado() {
+        return "Placa";
+    }
 
-                return "Placa encontrada" +
-                       "\nMultas: " + multasFormatadas +
-                       "\nIPVA: " + ipvaFormatado +
-                       "\nRestricoes: " + restricoesFormatadas +
-                       "\nRoubos: " + rouboFormatado;
-            } else {
-                return "Placa nao encontrada";
-            }
-        } catch (Exception e) {
-            return "Erro ao consultar placa: " + e.getMessage();
-        }
+    @Override
+    protected JSONObject consultarDados(String input) throws IOException {
+        return ConsultaDados.getInstance().consultarPlaca(input);
+    }
+
+    @Override
+    protected String formatarSucesso(JSONObject dados) {
+        String multas = formatarArray(dados.getJSONArray("historico_multas"));
+        String ipva = formatarBoolean(dados.getBoolean("ipva_pago"), "Pago", "Nao Pago");
+        String restricoes = formatarArray(dados.getJSONArray("restricoes"));
+        String roubo = formatarBoolean(dados.getBoolean("roubo"), "Sim", "Nao");
+
+        return "Placa encontrada\nMultas: " + multas + "\nIPVA: " + ipva + "\nRestricoes: " + restricoes + "\nRoubos: " + roubo;
     }
 
 

@@ -13,7 +13,9 @@ import java.nio.file.Paths;
 
 public class ServidorSOAP {
     public static void main(String[] args) throws IOException {
-        String urlBase = "http://localhost:8080";
+
+        ConsultaDados.getInstance(); 
+
         HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
 
         Endpoint.create(new ValidadorCPFServiceImpl()).publish(server.createContext("/validarCPF"));
@@ -22,7 +24,6 @@ public class ServidorSOAP {
         server.createContext("/", new HttpHandler() {
             @Override
             public void handle(HttpExchange exchange) throws IOException {
-
                 String caminhoDoHtml = "WebContent/pages/index.html";
                 Path path = Paths.get(caminhoDoHtml);
                 byte[] response;
@@ -32,7 +33,6 @@ public class ServidorSOAP {
                     exchange.getResponseHeaders().set("Content-Type", "text/html; charset=utf-8");
                     exchange.sendResponseHeaders(200, response.length);
                 } else {
-
                     String erroMsg = "<h1>Erro 404: Arquivo nao encontrado</h1>"
                                    + "<p>O servidor nao conseguiu encontrar o arquivo no caminho: " 
                                    + path.toAbsolutePath() + "</p>"
@@ -48,13 +48,17 @@ public class ServidorSOAP {
             }
         });
 
-        server.setExecutor(null);
+        server.setExecutor(null); 
         server.start();
-        System.out.println(" Servicos publicados:");
-        System.out.println(" - http://localhost:8080/validarCPF?wsdl");
-        System.out.println(" - http://localhost:8080/validarPlaca?wsdl");
-        System.out.println("--- Servidor Iniciado ---");
-        System.out.println("ACESSE: http://localhost:8080/");
-        System.out.println("-------------------------");
+
+
+        System.out.println("\n--- Servidor Iniciado com Padroes de Projeto ---");
+        System.out.println("   - Singleton para dados em memoria: OK");
+        System.out.println("   - Template Method para validadores: OK");
+        System.out.println("\nServicos publicados:");
+        System.out.println(" - WSDL CPF: http://localhost:8080/validarCPF?wsdl");
+        System.out.println(" - WSDL Placa: http://localhost:8080/validarPlaca?wsdl");
+        System.out.println("\n>>> acesse em: http://localhost:8080/");
+        System.out.println("----------------------------------------------");
     }
 }

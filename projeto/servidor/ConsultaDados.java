@@ -5,27 +5,42 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import org.json.JSONObject;
 
+
 public class ConsultaDados {
 
 
-    private static final String CAMINHO_CPFS = "projeto/data/cpfs.json";
-    private static final String CAMINHO_PLACAS = "projeto/data/placas.json";
+    private static ConsultaDados instance;
 
 
-    public static JSONObject carregarJSON(String caminho) throws IOException {
-        String conteudo = new String(Files.readAllBytes(Paths.get(caminho)));
-        return new JSONObject(conteudo);
+    private final JSONObject baseCpfs;
+    private final JSONObject basePlacas;
+
+
+    private ConsultaDados() throws IOException {
+        System.out.println(">>> [SINGLETON] Iniciando. Lendo arquivos JSON do disco...");
+        
+        String conteudoCpfs = new String(Files.readAllBytes(Paths.get("projeto/data/cpfs.json")));
+        this.baseCpfs = new JSONObject(conteudoCpfs);
+        
+        String conteudoPlacas = new String(Files.readAllBytes(Paths.get("projeto/data/placas.json")));
+        this.basePlacas = new JSONObject(conteudoPlacas);
+        
+        System.out.println(">>> [SINGLETON] Instancia criada. Dados em memoria.");
     }
 
 
-    public static JSONObject consultarCPF(String cpf) throws IOException {
-        JSONObject base = carregarJSON(CAMINHO_CPFS);
-        return base.optJSONObject(cpf);
+    public static synchronized ConsultaDados getInstance() throws IOException {
+        if (instance == null) {
+            instance = new ConsultaDados();
+        }
+        return instance;
     }
 
+    public JSONObject consultarCPF(String cpf) {
+        return baseCpfs.optJSONObject(cpf);
+    }
 
-    public static JSONObject consultarPlaca(String placa) throws IOException {
-        JSONObject base = carregarJSON(CAMINHO_PLACAS);
-        return base.optJSONObject(placa);
+    public JSONObject consultarPlaca(String placa) {
+        return basePlacas.optJSONObject(placa);
     }
 }
