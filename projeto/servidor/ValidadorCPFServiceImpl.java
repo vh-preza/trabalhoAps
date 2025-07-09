@@ -10,15 +10,58 @@ import java.util.StringJoiner;
 @WebService
 public class ValidadorCPFServiceImpl extends AbstractValidatorService {
 
-
     @WebMethod
     public String validarCPF(String cpf) {
+
         return processarConsulta(cpf);
     }
 
     @Override
     protected boolean validarFormato(String input) {
-        return input != null && input.matches("^[0-9]{11}$");
+
+        if (input == null || !input.matches("^[0-9]{11}$")) {
+            return false;
+        }
+        return isCpfMatematicamenteValido(input);
+    }
+
+    private boolean isCpfMatematicamenteValido(String cpf) {
+
+        if (cpf.matches("(\\d)\\1{10}")) {
+            return false;
+        }
+
+        try {
+
+            int soma = 0;
+            for (int i = 0; i < 9; i++) {
+                soma += Character.getNumericValue(cpf.charAt(i)) * (10 - i);
+            }
+            int resto = soma % 11;
+            int digitoVerificador1 = (resto < 2) ? 0 : 11 - resto;
+
+
+            if (Character.getNumericValue(cpf.charAt(9)) != digitoVerificador1) {
+                return false;
+            }
+
+
+            soma = 0;
+            for (int i = 0; i < 10; i++) {
+                soma += Character.getNumericValue(cpf.charAt(i)) * (11 - i);
+            }
+            resto = soma % 11;
+            int digitoVerificador2 = (resto < 2) ? 0 : 11 - resto;
+
+            if (Character.getNumericValue(cpf.charAt(10)) != digitoVerificador2) {
+                return false;
+            }
+        } catch (Exception e) {
+
+            return false;
+        }
+
+        return true;
     }
 
     @Override
@@ -28,7 +71,6 @@ public class ValidadorCPFServiceImpl extends AbstractValidatorService {
 
     @Override
     protected JSONObject consultarDados(String input) throws IOException {
-
         return ConsultaDados.getInstance().consultarCPF(input);
     }
 
@@ -36,7 +78,8 @@ public class ValidadorCPFServiceImpl extends AbstractValidatorService {
     protected String formatarSucesso(JSONObject dados) {
         String nome = dados.getString("nome");
         String apolicesFormatadas = formatarApolices(dados.getJSONArray("apolices"));
-        return "CPF encontrado\nNome: " + nome + "\nApolices: " + apolicesFormatadas;
+
+        return "CPF valido e encontrado\nNome: " + nome + "\nApolices: " + apolicesFormatadas;
     }
 
 
