@@ -1,8 +1,9 @@
 package projeto.servidor;
 
 import javax.jws.WebService;
+import org.json.JSONArray;
 import org.json.JSONObject;
-
+import java.util.StringJoiner; 
 @WebService
 public class ValidadorPlacaServiceImpl {
 
@@ -15,15 +16,38 @@ public class ValidadorPlacaServiceImpl {
         try {
             JSONObject dados = ConsultaDados.consultarPlaca(placa);
             if (dados != null) {
-                return "Placa encontrada\nMultas: " + dados.getJSONArray("historico_multas") +
-                       "\nIPVA: " + dados.getBoolean("ipva_pago") +
-                       "\nRestricoes: " + dados.getJSONArray("restricoes") +
-                       "\nRoubos: " + dados.getBoolean("roubo");
+
+                String multasFormatadas = formatarArray(dados.getJSONArray("historico_multas"));
+                String ipvaFormatado = formatarBoolean(dados.getBoolean("ipva_pago"), "Pago", "Nao Pago");
+                String restricoesFormatadas = formatarArray(dados.getJSONArray("restricoes"));
+                String rouboFormatado = formatarBoolean(dados.getBoolean("roubo"), "Sim", "Nao");
+
+                return "Placa encontrada" +
+                       "\nMultas: " + multasFormatadas +
+                       "\nIPVA: " + ipvaFormatado +
+                       "\nRestricoes: " + restricoesFormatadas +
+                       "\nRoubos: " + rouboFormatado;
             } else {
                 return "Placa nao encontrada";
             }
         } catch (Exception e) {
             return "Erro ao consultar placa: " + e.getMessage();
         }
+    }
+
+
+    private String formatarArray(JSONArray array) {
+        if (array == null || array.length() == 0) {
+            return "Nenhuma";
+        }
+        StringJoiner joiner = new StringJoiner(", ");
+        for (int i = 0; i < array.length(); i++) {
+            joiner.add(array.getString(i));
+        }
+        return joiner.toString();
+    }
+
+    private String formatarBoolean(boolean valor, String seVerdadeiro, String seFalso) {
+        return valor ? seVerdadeiro : seFalso;
     }
 }

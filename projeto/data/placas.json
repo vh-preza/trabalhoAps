@@ -1,7 +1,7 @@
 {
     "RKE4E95": {
         "historico_multas": [
-            "Quos cumque nulla alias perferendis."
+            "Avancar sinal vermelho do semaforo"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -11,16 +11,15 @@
         "historico_multas": [],
         "ipva_pago": false,
         "restricoes": [
-            "Financeira",
-            "Nenhuma"
+            "Financeira"
         ],
         "roubo": false
     },
     "CSM7W47": {
         "historico_multas": [
-            "Pariatur voluptatibus cumque.",
-            "Dignissimos quia fugiat.",
-            "Vel sit nulla."
+            "Excesso de velocidade em ate 20% do limite",
+            "Utilizar celular ao dirigir",
+            "Estacionar em local proibido"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -36,8 +35,8 @@
     },
     "ZNC0D11": {
         "historico_multas": [
-            "Distinctio facilis voluptatem.",
-            "Dicta officiis iusto."
+            "Transitar na faixa exclusiva de onibus",
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -45,7 +44,7 @@
     },
     "OSF4U42": {
         "historico_multas": [
-            "Amet accusamus a neque."
+            "Estacionar em fila dupla"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -53,9 +52,9 @@
     },
     "KIW2G51": {
         "historico_multas": [
-            "Magni reiciendis quas.",
-            "Quibusdam suscipit nihil laudantium.",
-            "Ratione beatae unde."
+            "Conduzir veiculo com licenciamento vencido",
+            "Realizar conversao proibida a esquerda",
+            "Excesso de velocidade entre 20% e 50% do limite"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -66,11 +65,10 @@
     },
     "EMW0Z85": {
         "historico_multas": [
-            "Dolorum ex molestias."
+            "Dirigir com CNH vencida"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
             "Sinistro"
         ],
         "roubo": false
@@ -100,8 +98,8 @@
     },
     "HRU7S73": {
         "historico_multas": [
-            "Cumque dolore iste iste.",
-            "Eum impedit veniam."
+            "Parar sobre a faixa de pedestres",
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -109,8 +107,8 @@
     },
     "EVS6Z60": {
         "historico_multas": [
-            "Occaecati officiis quos.",
-            "Et dignissimos dignissimos."
+            "Excesso de velocidade em ate 20% do limite",
+            "Transitar com farol apagado em rodovia"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -121,9 +119,7 @@
     "LJN3N81": {
         "historico_multas": [],
         "ipva_pago": true,
-        "restricoes": [
-            "Nenhuma"
-        ],
+        "restricoes": [],
         "roubo": false
     },
     "GMX8C68": {
@@ -134,8 +130,8 @@
     },
     "YUH6X95": {
         "historico_multas": [
-            "Possimus repellat fugiat.",
-            "Ad tempora id."
+            "Estacionar em vaga de idoso",
+            "Avancar sinal vermelho do semaforo"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -143,9 +139,9 @@
     },
     "DXC2U68": {
         "historico_multas": [
-            "Consequuntur hic ad voluptate accusantium.",
-            "Cupiditate qui necessitatibus ipsam.",
-            "Culpa totam vero."
+            "Nao utilizar cinto de seguranca",
+            "Estacionar sobre a calcada",
+            "Realizar conversao proibida"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -153,33 +149,31 @@
     },
     "UYA8S30": {
         "historico_multas": [
-            "Nam odio corrupti ea.",
-            "Voluptatum totam rem molestiae.",
-            "Maxime nam debitis."
+            "Transitar na contramao",
+            "Excesso de velocidade em ate 20% do limite",
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": true,
-        "restricoes": [
-            "Nenhuma"
-        ],
+        "restricoes": [],
         "roubo": false
     },
     "BFG9C83": {
         "historico_multas": [
-            "Adipisci accusamus architecto minima nam.",
-            "Voluptatum incidunt accusamus."
+            "Parar em local/horario proibido",
+            "Conduzir veiculo com licenciamento vencido"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Leilão",
+            "Leilao",
             "Sinistro"
         ],
         "roubo": false
     },
     "IXC1M67": {
         "historico_multas": [
-            "Neque molestiae unde enim accusantium soluta.",
-            "Ut enim est tempore velit.",
-            "Accusamus fuga doloremque quidem reprehenderit."
+            "Excesso de velocidade acima de 50% do limite",
+            "Dirigir com CNH cassada",
+            "Avancar sinal vermelho do semaforo"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -189,30 +183,27 @@
     },
     "XQH5A32": {
         "historico_multas": [
-            "Exercitationem eaque voluptatibus.",
-            "Omnis ad deserunt fugiat cupiditate eveniet.",
-            "Id architecto dolores maxime."
+            "Estacionar em local proibido",
+            "Nao utilizar cinto de seguranca",
+            "Transitar na faixa exclusiva de onibus"
         ],
         "ipva_pago": true,
-        "restricoes": [
-            "Nenhuma"
-        ],
+        "restricoes": [],
         "roubo": false
     },
     "ZNY1I19": {
         "historico_multas": [],
         "ipva_pago": false,
         "restricoes": [
-            "Leilão",
-            "Nenhuma"
+            "Leilao"
         ],
         "roubo": false
     },
     "JXL2C35": {
         "historico_multas": [
-            "Provident commodi similique.",
-            "Facilis iure sint.",
-            "Commodi unde inventore blanditiis facilis aliquam."
+            "Parar em desacordo com a sinalizacao",
+            "Utilizar luz alta em vias iluminadas",
+            "Conduzir veiculo com lacre de identificacao violado"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -220,9 +211,9 @@
     },
     "RPK5O59": {
         "historico_multas": [
-            "Voluptate aperiam molestias nemo accusantium.",
-            "Pariatur quos incidunt similique excepturi culpa.",
-            "Cupiditate cum molestias officia."
+            "Excesso de velocidade em ate 20% do limite",
+            "Utilizar celular ao dirigir",
+            "Estacionar em local proibido"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -230,8 +221,8 @@
     },
     "EFM7Y52": {
         "historico_multas": [
-            "Labore tempore optio beatae et impedit.",
-            "Ad veniam mollitia repellendus nesciunt voluptatem."
+            "Avancar sinal vermelho do semaforo",
+            "Estacionar em fila dupla"
         ],
         "ipva_pago": true,
         "restricoes": [
@@ -243,20 +234,19 @@
         "historico_multas": [],
         "ipva_pago": true,
         "restricoes": [
-            "Financeira",
-            "Nenhuma"
+            "Financeira"
         ],
         "roubo": true
     },
     "ATI9Z67": {
         "historico_multas": [
-            "Quisquam porro optio.",
-            "Enim voluptate dicta iste nesciunt odio."
+            "Excesso de velocidade entre 20% e 50% do limite",
+            "Transitar na contramao"
         ],
         "ipva_pago": true,
         "restricoes": [
             "Sinistro",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": true
     },
@@ -268,22 +258,21 @@
     },
     "FFB6H00": {
         "historico_multas": [
-            "Illo sunt voluptatibus.",
-            "Voluptate labore quisquam ullam temporibus voluptatem.",
-            "Atque praesentium suscipit eligendi aperiam."
+            "Conduzir veiculo com licenciamento vencido",
+            "Transitar com farol apagado em rodovia",
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
             "Financeira"
         ],
         "roubo": false
     },
     "FQO2S28": {
         "historico_multas": [
-            "Nihil veniam ut.",
-            "Ullam eaque reprehenderit itaque eum ad.",
-            "Porro quibusdam nam rem at."
+            "Estacionar em local proibido",
+            "Nao utilizar cinto de seguranca",
+            "Parar sobre a faixa de pedestres"
         ],
         "ipva_pago": true,
         "restricoes": [
@@ -293,7 +282,7 @@
     },
     "YQV7N15": {
         "historico_multas": [
-            "Fuga nesciunt non."
+            "Excesso de velocidade em ate 20% do limite"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -301,21 +290,20 @@
     },
     "BZV9Y81": {
         "historico_multas": [
-            "Molestias similique sint.",
-            "Quis placeat aperiam aperiam modi.",
-            "Officia placeat iste blanditiis reprehenderit tenetur."
+            "Avancar sinal vermelho do semaforo",
+            "Estacionar em fila dupla",
+            "Dirigir com CNH vencida"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
     "WAS6R77": {
         "historico_multas": [
-            "Sint nostrum nam quasi tempore.",
-            "Corporis doloremque error occaecati."
+            "Transitar na faixa exclusiva de onibus",
+            "Transitar com farol apagado em rodovia"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -323,9 +311,9 @@
     },
     "STE6X77": {
         "historico_multas": [
-            "Laborum laudantium aspernatur laudantium occaecati.",
-            "Suscipit error ipsam alias.",
-            "Quod placeat in ducimus facere cum reprehenderit."
+            "Conduzir veiculo com licenciamento vencido",
+            "Realizar conversao proibida",
+            "Estacionar em local proibido"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -335,19 +323,18 @@
     },
     "CYG3Z10": {
         "historico_multas": [
-            "Rem voluptate eum error.",
-            "Voluptatem rem fugit laudantium exercitationem."
+            "Excesso de velocidade em ate 20% do limite",
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Financeira",
-            "Nenhuma"
+            "Financeira"
         ],
         "roubo": false
     },
     "GYQ6F52": {
         "historico_multas": [
-            "Non nobis rerum accusantium possimus."
+            "Estacionar sobre a calcada"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -355,9 +342,9 @@
     },
     "UXM2P03": {
         "historico_multas": [
-            "Similique dicta aliquid sint aliquam doloribus.",
-            "Voluptatem minus molestias.",
-            "Totam dolorem quos eius."
+            "Utilizar celular ao dirigir",
+            "Transitar na contramao",
+            "Parar sobre a faixa de pedestres"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -369,8 +356,7 @@
         "historico_multas": [],
         "ipva_pago": true,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
@@ -382,9 +368,9 @@
     },
     "CCW6Z04": {
         "historico_multas": [
-            "Quasi corporis quod commodi eveniet temporibus.",
-            "Asperiores quos reprehenderit voluptate dolores corrupti.",
-            "Aspernatur placeat modi incidunt."
+            "Excesso de velocidade entre 20% e 50% do limite",
+            "Conduzir veiculo com licenciamento vencido",
+            "Dirigir com CNH vencida"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -392,20 +378,19 @@
     },
     "DRY1Q84": {
         "historico_multas": [
-            "Commodi neque asperiores labore quis rerum.",
-            "Doloribus minus quasi hic aliquid."
+            "Realizar conversao proibida a direita",
+            "Estacionar em fila dupla"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Sinistro",
-            "Nenhuma"
+            "Sinistro"
         ],
         "roubo": true
     },
     "PSB2J98": {
         "historico_multas": [
-            "Necessitatibus natus rem.",
-            "Aliquam distinctio aut dolorum corrupti."
+            "Dirigir ameacando pedestres",
+            "Disputar corrida"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -417,28 +402,27 @@
         "historico_multas": [],
         "ipva_pago": true,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": true
     },
     "TEH2K26": {
         "historico_multas": [
-            "Impedit reiciendis occaecati ducimus voluptatem.",
-            "Omnis tenetur doloribus.",
-            "Voluptatem accusantium porro quisquam eius."
+            "Avancar sinal vermelho do semaforo",
+            "Estacionar em vaga de deficiente",
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Leilão",
+            "Leilao",
             "Financeira"
         ],
         "roubo": true
     },
     "JQU6Y02": {
         "historico_multas": [
-            "Impedit eveniet natus molestiae.",
-            "Perferendis voluptatibus deleniti velit quasi animi."
+            "Nao dar preferencia ao pedestre na faixa",
+            "Transitar com farol desregulado"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -447,25 +431,22 @@
     "KSB6U26": {
         "historico_multas": [],
         "ipva_pago": false,
-        "restricoes": [
-            "Nenhuma"
-        ],
+        "restricoes": [],
         "roubo": false
     },
     "OPB0V55": {
         "historico_multas": [
-            "Sunt quidem sequi deserunt voluptatibus."
+            "Estacionar em local proibido"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Sinistro",
-            "Nenhuma"
+            "Sinistro"
         ],
         "roubo": true
     },
     "EIP9S69": {
         "historico_multas": [
-            "Quos fugit totam possimus vero temporibus."
+            "Excesso de velocidade em ate 20% do limite"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -473,30 +454,30 @@
     },
     "WCB4S60": {
         "historico_multas": [
-            "Suscipit occaecati dolorum."
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": false,
         "restricoes": [
             "Financeira",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
     "CFF1A71": {
         "historico_multas": [
-            "Vero vero aliquam.",
-            "Pariatur eveniet impedit optio."
+            "Transitar na faixa exclusiva de onibus",
+            "Parar sobre a faixa de pedestres"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
     "QEY8Z88": {
         "historico_multas": [
-            "Ipsa nesciunt tempora sint.",
-            "Natus dolorum perspiciatis quia autem ipsam."
+            "Utilizar celular ao dirigir",
+            "Estacionar em fila dupla"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -504,21 +485,20 @@
     },
     "NEX8J85": {
         "historico_multas": [
-            "Itaque perferendis eveniet iste ex tenetur.",
-            "Cupiditate laboriosam numquam atque magnam quia."
+            "Realizar conversao proibida",
+            "Conduzir veiculo com licenciamento vencido"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Sinistro",
-            "Nenhuma"
+            "Sinistro"
         ],
         "roubo": false
     },
     "FJE9Q95": {
         "historico_multas": [
-            "Quasi hic veniam odit eveniet.",
-            "Maiores praesentium neque soluta ab.",
-            "Quisquam impedit voluptate provident."
+            "Avancar sinal vermelho do semaforo",
+            "Excesso de velocidade em ate 20% do limite",
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -526,9 +506,9 @@
     },
     "XQR1J56": {
         "historico_multas": [
-            "Quod quis perferendis nobis quam cumque.",
-            "Quas animi voluptates.",
-            "Asperiores veritatis provident error assumenda."
+            "Estacionar sobre a calcada",
+            "Parar em local/horario proibido",
+            "Dirigir com CNH vencida"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -536,56 +516,52 @@
     },
     "GMW0N85": {
         "historico_multas": [
-            "Voluptates nulla ratione blanditiis eos numquam.",
-            "Eaque aliquam odio placeat."
+            "Transitar com farol apagado em rodovia",
+            "Transitar na contramao"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
     "QQX7O47": {
         "historico_multas": [
-            "Nostrum vel neque.",
-            "Debitis cumque temporibus est."
+            "Estacionar em vaga de idoso",
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Leilão",
-            "Nenhuma"
+            "Leilao"
         ],
         "roubo": false
     },
     "PDD3Z90": {
         "historico_multas": [
-            "Molestiae iusto iusto veniam.",
-            "Repellat quas expedita aliquam eum esse."
+            "Nao dar preferencia em rotatoria",
+            "Excesso de velocidade entre 20% e 50% do limite"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": true
     },
     "ITL8Q49": {
         "historico_multas": [
-            "Possimus illo sed dolore ipsam nobis.",
-            "Blanditiis voluptatem nesciunt at deleniti."
+            "Avancar sinal vermelho do semaforo",
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Leilão",
-            "Nenhuma"
+            "Leilao"
         ],
         "roubo": true
     },
     "GOG5S32": {
         "historico_multas": [
-            "Eos omnis minus.",
-            "Facere itaque itaque iure."
+            "Estacionar em local proibido",
+            "Parar sobre a faixa de pedestres"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -593,17 +569,15 @@
     },
     "BBH9U84": {
         "historico_multas": [
-            "Illo provident voluptas."
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": true,
-        "restricoes": [
-            "Nenhuma"
-        ],
+        "restricoes": [],
         "roubo": false
     },
     "JKW0U90": {
         "historico_multas": [
-            "Fuga iste voluptate."
+            "Excesso de velocidade em ate 20% do limite"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -611,8 +585,8 @@
     },
     "QAH2X17": {
         "historico_multas": [
-            "Laborum qui provident ut in.",
-            "Voluptas eveniet error saepe."
+            "Transitar na faixa exclusiva de onibus",
+            "Estacionar em fila dupla"
         ],
         "ipva_pago": true,
         "restricoes": [
@@ -622,23 +596,22 @@
     },
     "MCJ9Z30": {
         "historico_multas": [
-            "Ipsam labore eos temporibus.",
-            "Laudantium eveniet molestias."
+            "Conduzir veiculo com licenciamento vencido",
+            "Realizar conversao proibida"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Leilão"
+            "Leilao"
         ],
         "roubo": true
     },
     "GES3B82": {
         "historico_multas": [
-            "Quisquam sapiente tempore."
+            "Dirigir com CNH vencida"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
@@ -646,32 +619,30 @@
         "historico_multas": [],
         "ipva_pago": false,
         "restricoes": [
-            "Leilão",
+            "Leilao",
             "Financeira"
         ],
         "roubo": false
     },
     "SEH9S70": {
         "historico_multas": [
-            "Voluptate doloremque officia nam.",
-            "Quibusdam sapiente cumque doloribus amet."
+            "Avancar sinal vermelho do semaforo",
+            "Estacionar sobre a calcada"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": true
     },
     "YFS2M16": {
         "historico_multas": [
-            "Repudiandae corrupti mollitia.",
-            "Eaque consequuntur pariatur vitae dolorum.",
-            "Aspernatur tempore quos illum a."
+            "Transitar na contramao",
+            "Excesso de velocidade acima de 50% do limite",
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Nenhuma",
             "Sinistro"
         ],
         "roubo": true
@@ -680,7 +651,6 @@
         "historico_multas": [],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
             "Sinistro"
         ],
         "roubo": false
@@ -693,8 +663,8 @@
     },
     "MHY6H68": {
         "historico_multas": [
-            "Iure rem quas incidunt.",
-            "Quo ullam earum repudiandae."
+            "Parar em local/horario proibido",
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -702,7 +672,7 @@
     },
     "TNQ2C72": {
         "historico_multas": [
-            "Repellat recusandae architecto."
+            "Estacionar em vaga de deficiente"
         ],
         "ipva_pago": true,
         "restricoes": [
@@ -712,21 +682,21 @@
     },
     "WJL8F32": {
         "historico_multas": [
-            "Sit nesciunt atque fugit.",
-            "Animi facere rerum.",
-            "Expedita nobis maxime."
+            "Avancar sinal vermelho do semaforo",
+            "Excesso de velocidade em ate 20% do limite",
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
     "LAH4H35": {
         "historico_multas": [
-            "Modi rem a aspernatur.",
-            "Fugit placeat culpa autem recusandae nemo.",
-            "Nulla beatae earum vel delectus."
+            "Estacionar em fila dupla",
+            "Transitar na faixa exclusiva de onibus",
+            "Realizar conversao proibida"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -734,7 +704,7 @@
     },
     "UCL1W50": {
         "historico_multas": [
-            "Sed repudiandae itaque."
+            "Conduzir veiculo com licenciamento vencido"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -746,15 +716,14 @@
         "historico_multas": [],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
     "PJA8F43": {
         "historico_multas": [
-            "At nulla accusantium.",
-            "Molestias voluptatem iste consequatur."
+            "Dirigir com CNH vencida",
+            "Parar sobre a faixa de pedestres"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -764,25 +733,25 @@
         "historico_multas": [],
         "ipva_pago": true,
         "restricoes": [
-            "Leilão",
+            "Leilao",
             "Sinistro"
         ],
         "roubo": false
     },
     "IBM9Q19": {
         "historico_multas": [
-            "Ducimus quo doloribus."
+            "Excesso de velocidade acima de 50% do limite"
         ],
         "ipva_pago": true,
         "restricoes": [
             "Financeira",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": true
     },
     "MFK0M03": {
         "historico_multas": [
-            "Quidem nihil iste ea."
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": true,
         "restricoes": [
@@ -792,8 +761,8 @@
     },
     "CEP6H49": {
         "historico_multas": [
-            "Incidunt minima at.",
-            "Fuga corporis totam corporis magnam commodi."
+            "Avancar sinal vermelho do semaforo",
+            "Estacionar em local proibido"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -801,31 +770,30 @@
     },
     "NST6L49": {
         "historico_multas": [
-            "Tempore molestiae nostrum laborum ducimus."
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Leilão",
+            "Leilao",
             "Sinistro"
         ],
         "roubo": true
     },
     "VQG4D52": {
         "historico_multas": [
-            "Soluta facere sapiente.",
-            "Ducimus voluptates laborum non dolor."
+            "Transitar na contramao",
+            "Excesso de velocidade entre 20% e 50% do limite"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Nenhuma",
-            "Leilão"
+            "Leilao"
         ],
         "roubo": true
     },
     "WYC4C95": {
         "historico_multas": [
-            "Placeat necessitatibus atque.",
-            "Optio inventore vitae quae aperiam."
+            "Estacionar em fila dupla",
+            "Parar em local/horario proibido"
         ],
         "ipva_pago": true,
         "restricoes": [],
@@ -843,32 +811,31 @@
         "historico_multas": [],
         "ipva_pago": false,
         "restricoes": [
-            "Financeira",
-            "Nenhuma"
+            "Financeira"
         ],
         "roubo": true
     },
     "YKV4X59": {
         "historico_multas": [
-            "Facilis velit officia aliquid.",
-            "Quos consequatur reiciendis facere."
+            "Dirigir com CNH cassada",
+            "Avancar sinal vermelho do semaforo"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Leilão",
+            "Leilao",
             "Sinistro"
         ],
         "roubo": false
     },
     "BID9F75": {
         "historico_multas": [
-            "Commodi incidunt nobis minus voluptatum atque.",
-            "Dolorum reiciendis quas quaerat veniam.",
-            "Laborum pariatur officiis repellat accusamus."
+            "Utilizar celular ao dirigir",
+            "Nao utilizar cinto de seguranca",
+            "Excesso de velocidade em ate 20% do limite"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Leilão",
+            "Leilao",
             "Financeira"
         ],
         "roubo": false
@@ -883,20 +850,19 @@
     },
     "BKO4G83": {
         "historico_multas": [
-            "Consectetur quisquam ab ab."
+            "Estacionar sobre a calcada"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Nenhuma",
             "Financeira"
         ],
         "roubo": false
     },
     "UFA3I09": {
         "historico_multas": [
-            "Debitis nobis veniam quod cum.",
-            "Consectetur qui ullam rem eaque molestias.",
-            "Facere dolorem maxime."
+            "Transitar na faixa exclusiva de onibus",
+            "Realizar conversao proibida",
+            "Parar sobre a faixa de pedestres"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -904,7 +870,7 @@
     },
     "JRR3R84": {
         "historico_multas": [
-            "Quam numquam ea."
+            "Conduzir veiculo com licenciamento vencido"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -914,8 +880,8 @@
     },
     "GHP8R09": {
         "historico_multas": [
-            "Pariatur odio dignissimos.",
-            "Ad eum nostrum minima deserunt quasi."
+            "Avancar sinal vermelho do semaforo",
+            "Dirigir ameacando pedestres"
         ],
         "ipva_pago": false,
         "restricoes": [
@@ -925,18 +891,16 @@
     },
     "UPI4V24": {
         "historico_multas": [
-            "Sequi non eveniet deleniti esse.",
-            "Nulla adipisci accusamus."
+            "Excesso de velocidade em ate 20% do limite",
+            "Nao utilizar cinto de seguranca"
         ],
         "ipva_pago": false,
-        "restricoes": [
-            "Nenhuma"
-        ],
+        "restricoes": [],
         "roubo": false
     },
     "INH4R19": {
         "historico_multas": [
-            "Incidunt commodi magni."
+            "Transitar com farol apagado em rodovia"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -946,48 +910,46 @@
         "historico_multas": [],
         "ipva_pago": true,
         "restricoes": [
-            "Leilão"
+            "Leilao"
         ],
         "roubo": false
     },
     "WOM4F92": {
         "historico_multas": [
-            "Quia harum vitae facere eligendi."
+            "Estacionar em vaga de deficiente"
         ],
         "ipva_pago": true,
         "restricoes": [
-            "Nenhuma",
             "Sinistro"
         ],
         "roubo": true
     },
     "JTW9N57": {
         "historico_multas": [
-            "Deserunt labore dolores.",
-            "Culpa porro maxime.",
-            "Sunt consectetur quaerat praesentium."
+            "Desobedecer ordem de parada de agente de transito",
+            "Parar sobre a faixa de pedestres",
+            "Utilizar celular ao dirigir"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Sinistro",
-            "Nenhuma"
+            "Sinistro"
         ],
         "roubo": true
     },
     "SJK1W07": {
         "historico_multas": [
-            "Eveniet sequi assumenda.",
-            "Veritatis facilis odio."
+            "Excesso de velocidade acima de 50% do limite",
+            "Transitar na contramao"
         ],
         "ipva_pago": false,
         "restricoes": [
-            "Leilão"
+            "Leilao"
         ],
         "roubo": true
     },
     "TEK2G93": {
         "historico_multas": [
-            "Itaque pariatur voluptates impedit eum eligendi."
+            "Conduzir veiculo com equipamento obrigatorio ineficiente"
         ],
         "ipva_pago": false,
         "restricoes": [],
@@ -995,8 +957,8 @@
     },
     "XUE0Q66": {
         "historico_multas": [
-            "Itaque rem ullam.",
-            "Magnam ea reiciendis omnis laboriosam."
+            "Estacionar sobre a calcada",
+            "Transitar com farol apagado em rodovia"
         ],
         "ipva_pago": false,
         "restricoes": [],

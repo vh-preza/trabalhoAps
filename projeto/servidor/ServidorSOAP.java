@@ -50,7 +50,7 @@ public class ServidorSOAP {
 
         server.setExecutor(null);
         server.start();
-        System.out.println(" Serviços publicados:");
+        System.out.println(" Servicos publicados:");
         System.out.println(" - http://localhost:8080/validarCPF?wsdl");
         System.out.println(" - http://localhost:8080/validarPlaca?wsdl");
         System.out.println("--- Servidor Iniciado ---");
